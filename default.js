@@ -39,7 +39,7 @@ module.exports = {
     "scanjs-rules/call_addEventListener" : "error",
     "scanjs-rules/call_addEventListener_deviceproximity" : "error",
     "scanjs-rules/call_addEventListener_message" : "error",
-    "scanjs-rules/call_connect" : "error",
+    "scanjs-rules/call_connect" : "warn",
     "scanjs-rules/call_eval" : "error",
     "scanjs-rules/call_execScript" : "error",
     "scanjs-rules/call_hide" : "error",
