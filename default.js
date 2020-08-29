@@ -62,20 +62,6 @@ module.exports = {
     "scanjs-rules/property_mgmt" : "error",
     "scanjs-rules/property_sessionStorage" : "error",
 
-    /** security plugin rules**/
-    "security/detect-unsafe-regex": "error",
-    "security/detect-buffer-noassert": "error",
-    "security/detect-child-process": "error",
-    "security/detect-disable-mustache-escape": "error",
-    "security/detect-eval-with-expression": "off", // To avoid duplicates.
-    "security/detect-no-csrf-before-method-override": "error",
-    "security/detect-non-literal-fs-filename": "error",
-    "security/detect-non-literal-regexp": "error",
-    "security/detect-non-literal-require": "warn",
-    "security/detect-object-injection": "error",
-    "security/detect-possible-timing-attacks": "warn",
-    "security/detect-pseudoRandomBytes": "error",
-
     /** no-unsanitized rules **/
     "no-unsanitized/method": "error",
     "no-unsanitized/property": "error",
@@ -209,7 +195,21 @@ module.exports = {
     "security-node/detect-runinthiscontext-method-in-nodes-vm": "error",
     "security-node/detect-security-missconfiguration-cookie": "error",
     "security-node/detect-sql-injection": "error",
-    "security-node/disable-ssl-across-node-server": "error"
+    "security-node/disable-ssl-across-node-server": "error",
+
+    /** security plugin rules**/
+    "security/detect-unsafe-regex": "error",
+    "security/detect-buffer-noassert": "error",
+    "security/detect-child-process": "error",
+    "security/detect-disable-mustache-escape": "error",
+    "security/detect-eval-with-expression": "off", // To avoid duplicates.
+    "security/detect-no-csrf-before-method-override": "error",
+    "security/detect-non-literal-fs-filename": "error",
+    "security/detect-non-literal-regexp": "error",
+    "security/detect-non-literal-require": "warn",
+    "security/detect-object-injection": "error",
+    "security/detect-possible-timing-attacks": "warn",
+    "security/detect-pseudoRandomBytes": "error"
   },
   "parserOptions": {
     "ecmaVersion": 9
