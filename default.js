@@ -67,7 +67,7 @@ module.exports = {
     "security/detect-buffer-noassert": "error",
     "security/detect-child-process": "error",
     "security/detect-disable-mustache-escape": "error",
-    "security/detect-eval-with-expression": "error",
+    "security/detect-eval-with-expression": "off", // To avoid duplicates.
     "security/detect-no-csrf-before-method-override": "error",
     "security/detect-non-literal-fs-filename": "error",
     "security/detect-non-literal-regexp": "error",
@@ -196,7 +196,7 @@ module.exports = {
     "security-node/detect-child-process": "error",
     "security-node/detect-crlf": "warn",
     "security-node/detect-dangerous-redirects": "error",
-    "security-node/detect-eval-with-expr": "error",
+    "security-node/detect-eval-with-expr": "off", // To avoid dulicates.
     "security-node/detect-helmet-without-nocache": "error",
     "security-node/detect-html-injection": "error",
     "security-node/detect-insecure-randomness": "error",
