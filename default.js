@@ -71,7 +71,7 @@ module.exports = {
     "security/detect-no-csrf-before-method-override": "error",
     "security/detect-non-literal-fs-filename": "error",
     "security/detect-non-literal-regexp": "error",
-    "security/detect-non-literal-require": "error",
+    "security/detect-non-literal-require": "warn",
     "security/detect-object-injection": "error",
     "security/detect-possible-timing-attacks": "error",
     "security/detect-pseudoRandomBytes": "error",
