@@ -6,10 +6,13 @@ The config files are highly inspired by Greenwolfs [eslint-security-scanner-conf
 ## Prerequisites
 Make sure you have ESLint installed globally: `npm i -g eslint`
 
-For some reason it isn't possible to install eslint plugins globally so we have to install them locally in the directory we want to run the linter in:
+For some reason it isn't possible to install eslint plugins globally so they have to be installed locally in the `eslint-security` directory:
 ```
 npm i --save-dev eslint-plugin-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-config-standard eslint-config-semistandard eslint-plugin-scanjs-rules eslint-plugin-no-unsanitized eslint-plugin-prototype-pollution-security-rules eslint-plugin-angularjs-security-rules eslint-plugin-react eslint-plugin-security eslint-plugin-no-wildcard-postmessage eslint-plugin-html eslint-plugin-no-secrets eslint-plugin-security-node
 ```
+
+## Execute ESLint with the Config File
+`eslint --ext .html,.htm,.js -c [PATH_TO_ESLINT-SECURITY]/default.js [PATH_TO_REPO_TO_TEST]`
 
 ## Utilized Security Plugins
 - [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
