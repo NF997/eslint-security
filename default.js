@@ -211,6 +211,9 @@ module.exports = {
     "security-node/detect-sql-injection": "error",
     "security-node/disable-ssl-across-node-server": "error"
   },
+  "parserOptions": {
+    "ecmaVersion": 9
+  },
   "settings" : {
     "react" : {
         "version": "latest"
