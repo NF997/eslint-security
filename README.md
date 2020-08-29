@@ -4,7 +4,7 @@ For security source code reviews I don't care about missing newlines etc. What I
 The config files are highly inspired by Greenwolfs [eslint-security-scanner-configs](https://github.com/Greenwolf/eslint-security-scanner-configs) which are already great but create too much noise for my taste.
 
 ## Prerequisites
-Make sure you have eslint installed globally: `npm i -g eslint`
+Make sure you have ESLint installed globally: `npm i -g eslint`
 
 For some reason it isn't possible to install eslint plugins globally so we have to install them locally in the directory we want to run the linter in:
 ```
