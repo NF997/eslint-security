@@ -194,7 +194,7 @@ module.exports = {
     "security-node/detect-absence-of-name-option-in-exrpress-session": "error",
     "security-node/detect-buffer-unsafe-allocation": "error",
     "security-node/detect-child-process": "error",
-    "security-node/detect-crlf": "error",
+    "security-node/detect-crlf": "warn",
     "security-node/detect-dangerous-redirects": "error",
     "security-node/detect-eval-with-expr": "error",
     "security-node/detect-helmet-without-nocache": "error",
