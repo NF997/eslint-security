@@ -205,7 +205,7 @@ module.exports = {
     "security-node/detect-option-multiplestatements-in-mysql": "error",
     "security-node/detect-option-rejectunauthorized-in-nodejs-httpsrequest": "error",
     "security-node/detect-option-unsafe-in-serialize-javascript-npm-package": "error",
-    "security-node/detect-possible-timing-attacks": "error",
+    "security-node/detect-possible-timing-attacks": "warn",
     "security-node/detect-runinthiscontext-method-in-nodes-vm": "error",
     "security-node/detect-security-missconfiguration-cookie": "error",
     "security-node/detect-sql-injection": "error",
