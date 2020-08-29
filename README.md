@@ -12,7 +12,7 @@ npm i --save-dev eslint-plugin-standard eslint-plugin-import eslint-plugin-node 
 ```
 
 ## Execute ESLint with the Config File
-`eslint --ext .html,.htm,.js -c [PATH_TO_ESLINT-SECURITY]/default.js [PATH_TO_REPO_TO_TEST]`
+`eslint --ext .html,.htm,.js,.json -c [PATH_TO_ESLINT-SECURITY]/default.js [PATH_TO_REPO_TO_TEST]`
 
 ## Utilized Security Plugins
 - [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
