@@ -200,7 +200,7 @@ module.exports = {
     /** security plugin rules**/
     "security/detect-unsafe-regex": "error",
     "security/detect-buffer-noassert": "error",
-    "security/detect-child-process": "error",
+    "security/detect-child-process": "warn",
     "security/detect-disable-mustache-escape": "error",
     "security/detect-eval-with-expression": "off", // To avoid duplicates.
     "security/detect-no-csrf-before-method-override": "error",
