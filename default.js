@@ -200,7 +200,7 @@ module.exports = {
     "security-node/detect-helmet-without-nocache": "error",
     "security-node/detect-html-injection": "error",
     "security-node/detect-insecure-randomness": "error",
-    "security-node/detect-non-literal-require-calls": "error",
+    "security-node/detect-non-literal-require-calls": "warn",
     "security-node/detect-nosql-injection": "error",
     "security-node/detect-option-multiplestatements-in-mysql": "error",
     "security-node/detect-option-rejectunauthorized-in-nodejs-httpsrequest": "error",
