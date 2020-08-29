@@ -73,7 +73,7 @@ module.exports = {
     "security/detect-non-literal-regexp": "error",
     "security/detect-non-literal-require": "warn",
     "security/detect-object-injection": "error",
-    "security/detect-possible-timing-attacks": "error",
+    "security/detect-possible-timing-attacks": "warn",
     "security/detect-pseudoRandomBytes": "error",
 
     /** no-unsanitized rules **/
