@@ -1,4 +1,4 @@
-# ESLint Configuration Files for Security Source Code Reviews or DevSecOps
+# ESLint Configuration for Security Source Code Reviews or DevSecOps
 For security source code reviews I don't care about missing newlines etc. 
 What I do care about is the output of ESLint security plugins. 
 With the file contained in this repository, ESLint turns into a little SAST tool for JavaScript applications.
@@ -16,7 +16,9 @@ npm i --save-dev eslint-plugin-standard eslint-plugin-import eslint-plugin-node 
 ## Execute ESLint with the Config File
 - Make sure that in the directory you want to execute ESLint in there is no `.eslintrc.*` file.
 - Make sure that no important rules are explicitly ignored in the source code (search for `eslint-disable`).
-- `eslint --ext .html,.htm,.js,.json -c [PATH_TO_ESLINT-SECURITY]/default.js [PATH_TO_REPO_TO_TEST]`
+```
+eslint --ext .html,.htm,.js,.json -c [PATH_TO_ESLINT-SECURITY]/default.js [PATH_TO_REPO_TO_TEST]
+```
 
 ## Utilized Security Plugins
 - [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
