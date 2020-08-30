@@ -70,10 +70,10 @@ module.exports = {
     "no-secrets/no-secrets":"error",
 
     /** prototype-pollution-security-rules rules **/
-    "prototype-pollution-security-rules/detect-merge": "error",
-    "prototype-pollution-security-rules/detect-merge-objects": "error",
-    "prototype-pollution-security-rules/detect-merge-options": "error",
-    "prototype-pollution-security-rules/detect-deep-extend": "error",
+    "prototype-pollution-security-rules/detect-merge": "warn",
+    "prototype-pollution-security-rules/detect-merge-objects": "warn",
+    "prototype-pollution-security-rules/detect-merge-options": "warn",
+    "prototype-pollution-security-rules/detect-deep-extend": "warn",
 
     /** no-wildcard-postmessage (NodeJS) rules **/
     "no-wildcard-postmessage/no-wildcard-postmessage": "error",
