@@ -11,10 +11,10 @@ For some reason it isn't possible to install eslint plugins globally so they hav
 npm i --save-dev eslint-plugin-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-config-standard eslint-config-semistandard eslint-plugin-scanjs-rules eslint-plugin-no-unsanitized eslint-plugin-prototype-pollution-security-rules eslint-plugin-angularjs-security-rules eslint-plugin-react eslint-plugin-security eslint-plugin-no-wildcard-postmessage eslint-plugin-html eslint-plugin-no-secrets eslint-plugin-security-node
 ```
 
-Make sure that in the directory you want to execute ESLint in there is no additional `.eslintrc.*` file.
-
 ## Execute ESLint with the Config File
-`eslint --ext .html,.htm,.js,.json -c [PATH_TO_ESLINT-SECURITY]/default.js [PATH_TO_REPO_TO_TEST]`
+- Make sure that in the directory you want to execute ESLint in there is no `.eslintrc.*` file.
+- Make sure that no important rules are explicitly ignored in the source code (search for `eslint-disable`).
+- `eslint --ext .html,.htm,.js,.json -c [PATH_TO_ESLINT-SECURITY]/default.js [PATH_TO_REPO_TO_TEST]`
 
 ## Utilized Security Plugins
 - [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
