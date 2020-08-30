@@ -183,7 +183,7 @@ module.exports = {
     "security-node/detect-crlf": "warn",
     "security-node/detect-dangerous-redirects": "error",
     "security-node/detect-eval-with-expr": "off", // To avoid dulicates.
-    "security-node/detect-helmet-without-nocache": "error",
+    "security-node/detect-helmet-without-nocache": "warn",
     "security-node/detect-html-injection": "error",
     "security-node/detect-insecure-randomness": "error",
     "security-node/detect-non-literal-require-calls": "warn",
