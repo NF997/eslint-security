@@ -212,7 +212,8 @@ module.exports = {
     "security/detect-pseudoRandomBytes": "error"
   },
   "parserOptions": {
-    "ecmaVersion": 9
+    "ecmaVersion": 9,
+    "sourceType": "module"
   },
   "settings" : {
     "react" : {
