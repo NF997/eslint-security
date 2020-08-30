@@ -47,7 +47,7 @@ module.exports = {
     "scanjs-rules/call_parseFromString" : "error",
     "scanjs-rules/call_setImmediate" : "error",
     "scanjs-rules/call_setInterval" : "error",
-    "scanjs-rules/call_setTimeout" : "error",
+    "scanjs-rules/call_setTimeout" : "warn",
     "scanjs-rules/identifier_indexedDB" : "error",
     "scanjs-rules/identifier_localStorage" : "error",
     "scanjs-rules/identifier_sessionStorage" : "error",
