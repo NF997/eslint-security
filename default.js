@@ -25,6 +25,9 @@ module.exports = {
         "html/html-extensions": [".html", ".htm"],  // consider .html and .we files as HTML
   },
   "rules" : {
+    /** ESLint default rules **/
+    "comma-dangle": "off",
+
     /** ScanJS rules **/
     "scanjs-rules/accidental_assignment": "error",
     "scanjs-rules/assign_to_hostname" : "error",
