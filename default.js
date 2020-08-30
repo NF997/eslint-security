@@ -176,7 +176,7 @@ module.exports = {
     "react/jsx-wrap-multilines": "error",
 
     /** nodejs rules **/
-    "security-node/non-literal-reg-expr": "error",
+    "security-node/non-literal-reg-expr": "warn",
     "security-node/detect-absence-of-name-option-in-exrpress-session": "error",
     "security-node/detect-buffer-unsafe-allocation": "error",
     "security-node/detect-child-process": "error",
