@@ -205,7 +205,7 @@ module.exports = {
     "security/detect-eval-with-expression": "off", // To avoid duplicates.
     "security/detect-no-csrf-before-method-override": "error",
     "security/detect-non-literal-fs-filename": "error",
-    "security/detect-non-literal-regexp": "error",
+    "security/detect-non-literal-regexp": "off", // To avoid duplicates.
     "security/detect-non-literal-require": "off", // To avoid duplicates.
     "security/detect-object-injection": "warn",
     "security/detect-possible-timing-attacks": "warn",
