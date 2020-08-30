@@ -27,7 +27,7 @@ module.exports = {
   "rules" : {
     /** ScanJS rules **/
     "scanjs-rules/accidental_assignment": "error",
-    "scanjs-rules/assign_to_hostname" : "error",
+    "scanjs-rules/assign_to_hostname" : "warn",
     "scanjs-rules/assign_to_href" : "error",
     "scanjs-rules/assign_to_location" : "error",
     "scanjs-rules/assign_to_onmessage" : "error",
