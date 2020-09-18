@@ -24,6 +24,7 @@ module.exports = {
         // setting to enable different html file types
         "html/html-extensions": [".html", ".htm"],  // consider .html and .we files as HTML
   },
+  "ignorePatterns": ["package-lock.json"],
   "rules" : {
     /** ScanJS rules **/
     "scanjs-rules/accidental_assignment": "error",
