@@ -68,7 +68,7 @@ module.exports = {
     "no-unsanitized/property": "error",
 
     /** no-secrets rules **/
-    "no-secrets/no-secrets":"warn",
+    "no-secrets/no-secrets": ["warn",{"tolerance": 5}],
 
     /** prototype-pollution-security-rules rules **/
     "prototype-pollution-security-rules/detect-merge": "warn",
