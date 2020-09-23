@@ -29,3 +29,6 @@ eslint --ext .html,.htm,.js,.json -c [PATH_TO_ESLINT-SECURITY]/default.js [PATH_
 - [eslint-plugin-scanjs-rules](https://github.com/mozfreddyb/eslint-plugin-scanjs-rules)
 - [eslint-plugin-angularjs-security-rules](https://github.com/LewisArdern/eslint-plugin-angularjs-security-rules)
 - [eslint-plugin-security-node](https://github.com/gkouziik/eslint-plugin-security-node)
+
+## Known Issues
+- When copying the configuration file into the root directory of the code to review, there is an error stating the following: `ESLint configuration in [PATH_TO_REPO_TO_TEST]/.eslintrc.js is invalid: 	- Unexpected top-level property "ignorePatterns"`. For now, just comment out the `ignorePatterns`.
